@@ -1,0 +1,370 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-06-15T03:56:05.847Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.aventstack.extentreports.ExtentTest.createNode(String)\" because \"Base.BaseUtil.features\" is null\r\n\tat steps.Hook.InitializeTest(Hook.java:34)\r\n",
+              "duration": 6981300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login with correct username and password",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:49)\r\n",
+              "duration": 1994500,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "steps.LoginStep.iEnterTheFollowingForLogin(java.util.List\u003csteps.LoginStep$User\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997900,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I click login button",
+            "match": {
+              "location": "steps.LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I should see the userform page",
+            "match": {
+              "location": "steps.LoginStep.iShouldSeeTheUserformPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-15T03:56:05.928Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"com.aventstack.extentreports.ExtentTest.createNode(String)\" because \"Base.BaseUtil.features\" is null\r\n\tat steps.Hook.InitializeTest(Hook.java:34)\r\n",
+              "duration": 998300,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.InitializeTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Login with correct username and password to fail",
+        "description": "",
+        "id": "loginfeature;login-with-correct-username-and-password-to-fail",
+        "after": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.quit()\" because \"Base.BaseUtil.Driver\" is null\r\n\tat steps.Hook.TearDownTest(Hook.java:49)\r\n",
+              "duration": 997000,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.Hook.TearDownTest(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1988700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "steps.LoginStep.iNavigateToTheLoginPage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "steps.LoginStep.iEnterTheFollowingForLogin(java.util.List\u003csteps.LoginStep$User\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1994700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click login button",
+            "match": {
+              "location": "steps.LoginStep.iClickLoginButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997800,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.BeforeEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I should see the userform page wrongly",
+            "match": {
+              "location": "steps.LoginStep.iShouldSeeTheUserformPageWrongly()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "steps.Hook.AfterEveryStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "LoginFeature",
+    "description": "  This feature deals with the login functionality of the application",
+    "id": "loginfeature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Login.feature",
+    "tags": []
+  }
+]

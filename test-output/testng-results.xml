@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-15T09:26:04 IST" name="Default suite" finished-at="2024-06-15T09:26:08 IST" duration-ms="3799">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@32502377]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-15T09:26:04 IST" name="Default test" finished-at="2024-06-15T09:26:08 IST" duration-ms="3799">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:runner.TestRunner@32502377]" started-at="2024-06-15T09:26:04 IST" name="setUpClass" finished-at="2024-06-15T09:26:05 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@32502377]" started-at="2024-06-15T09:26:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-15T09:26:05 IST" duration-ms="394" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[LoginFeature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.createNode(String)" because "Base.BaseUtil.features" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.createNode(String)" because "Base.BaseUtil.features" is null
+at steps.Hook.InitializeTest(Hook.java:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@32502377]" started-at="2024-06-15T09:26:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-15T09:26:05 IST" duration-ms="43" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login with correct username and password to fail"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[LoginFeature]"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.aventstack.extentreports.ExtentTest.createNode(String)" because "Base.BaseUtil.features" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.createNode(String)" because "Base.BaseUtil.features" is null
+at steps.Hook.InitializeTest(Hook.java:34)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@32502377]" started-at="2024-06-15T09:26:05 IST" name="tearDownClass" finished-at="2024-06-15T09:26:08 IST" duration-ms="2467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
